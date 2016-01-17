@@ -91,3 +91,7 @@ Lorsque l'on passe la souris sur un bouton et qu'il change de couleur, cela sign
 #### Sélection de valeurs numériques
 
 Lorsque l'on choisi le nombre de traits en pointillé, le sélecteur se bloque automatiquement au nombre de trait maximum pour la taille de la grille sélectionnée. Si l'on diminue la taille de la grille et que le nombre de traits choisi initialement était supèrieur au nombre maximal de traits pour la taille actuelle, le nombre de traits en pointillé se règle automatiquement sur le nombre de traits maximum de la grille actuelle.
+
+### Auteur
+Guillaume Carré
+Oscar Bourat
