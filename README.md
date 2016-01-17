@@ -4,7 +4,7 @@
 
 ### Démarrage du jeu
 
-Pour démarrer le jeu, on exécute la classe Grid. La console nous donne ensuite le choix de jouer dans la console ou en mode graphique.
+Pour démarrer le jeu, on exécute la classe **Grid**. La console nous donne ensuite le choix de jouer dans la console ou en mode graphique.
 
 
 ### Mode console
