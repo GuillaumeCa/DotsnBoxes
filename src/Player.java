@@ -43,7 +43,6 @@ public class Player {
 			System.out.println("La position est incorrecte. Réessayez.");
 			move();
 		}
-		sc.close();
 	}
 
 	/**

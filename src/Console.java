@@ -65,7 +65,6 @@ public class Console {
 	public static int isNumber(String s, int defaultValue) {
 		Scanner sc = new Scanner(System.in);
 		try {
-			sc.close();
 			if (!s.isEmpty()) {
 				return Integer.parseInt(s);
 			} else {
@@ -142,7 +141,7 @@ public class Console {
 			System.out.println("Le nombre entré n'est pas valide. Réessayez.");
 			Grid.firstPlayers = isNumber(sc.nextLine(), 1);
 		}
-		sc.close();
+		;
 	}
 
 	/**
@@ -158,7 +157,7 @@ public class Console {
 			System.out.print("> Nom joueur 2: ");
 			Player p2 = new Player(sc.nextLine(), 0);
 			Player[] tab = {p1, p2};
-			sc.close();
+			
 			return tab;
 		} else if (mode == 2) {
 			System.out.println("Mode de jeu: Joueur vs Ordi");
@@ -166,10 +165,10 @@ public class Console {
 			Player p1 = new Player(sc.nextLine(), 0);
 			Player p2 = new Player("Ordi", Difficulte);
 			Player[] tab = {p1, p2};
-			sc.close();
+			
 			return tab;
 		} else {
-			sc.close();
+			
 			return null;
 		}
 	}
@@ -256,11 +255,11 @@ public class Console {
 			System.out.println("> Si vous souhaitez rejouer, taper (1)");
 			Scanner sc = new Scanner(System.in);
 			if (isNumber(sc.nextLine(), 1) == 1) {
-				sc.close();
+				
 				Grid.reset();
 				Console.reset();
 			} else {
-				sc.close();
+				
 				break;
 			}
 		}

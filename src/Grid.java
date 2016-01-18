@@ -292,6 +292,5 @@ public class Grid {
 		if (mode == 2) {
 			Console.main(args);
 		}
-		sc.close();
 	}
 }
